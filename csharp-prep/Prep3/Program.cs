@@ -6,7 +6,8 @@ class Program
     {
         Random randomGenerator  = new Random();
         int magicNumber = randomGenerator.Next(1, 101);
-        int guess = 9;
+        int guess = 0;
+        
         while (guess != magicNumber)
         {
             Console.Write("what is your guess: ");
