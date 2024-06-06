@@ -13,3 +13,4 @@ class Program
         scripture2.Practice();
     }
 }
+
