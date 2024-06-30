@@ -1,9 +1,19 @@
 using System;
+using System.Collections.Generic;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static List<Goal> Goals { get; private set; }
+    public static int Score { get; private set; }
+
+    static Program()
     {
-        Console.WriteLine("Hello Develop05 World!");
+        Goals = new List<Goal>();
+        Score = 0;
+    }
+
+    public static void Main()
+    {
+        Menu.Display(Goals,ref Score);
     }
 }
