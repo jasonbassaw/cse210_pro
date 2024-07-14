@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 public class Menu
 {
     public static void Display(List<Goal> goals, ref int score)

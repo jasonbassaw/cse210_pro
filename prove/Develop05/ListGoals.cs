@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 public class ListGoals
 {
     public static void Execute(List<Goal> goals)

@@ -1,5 +1,3 @@
-using System;
-
 public class DisplayScore
 {
     public static void Execute(int score)
